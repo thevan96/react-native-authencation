@@ -31,7 +31,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:773415350379:ios:0a9b6e74ca75559626c12e</string>
+	<string>1:773415350379:ios:51d25f264482526726c12e</string>
 	<key>DATABASE_URL</key>
 	<string>https://fir-1-5b752.firebaseio.com</string>
 </dict>

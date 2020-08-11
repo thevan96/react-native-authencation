@@ -1,6 +1,11 @@
-import React from 'react';
-import {View} from 'react-native';
-import { GoogleSignin, GoogleSigninButton } from '@react-native-community/google-signin';
+import React, {useState} from 'react';
+import {View, Dimensions, StyleSheet, Alert} from 'react-native';
+import {
+  GoogleSignin,
+  GoogleSigninButton,
+} from '@react-native-community/google-signin';
+
+const {width, height} = Dimensions.get('window');
 
 GoogleSignin.configure({
   webClientId:
@@ -8,34 +13,51 @@ GoogleSignin.configure({
 });
 
 const SigIn = () => {
-
+  const [token, setToken] = useState();
   const signIn = async () => {
-    console.log('Run sigIn');
     try {
       await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signIn();
-      console.log('userInfo', userInfo);
+      setToken(userInfo);
+      token && Alert.alert(JSON.stringify(token));
     } catch (error) {
       if (error.code === statusCodes.SIGN_IN_CANCELLED) {
         // user cancelled the login flow
+        Alert.alert('Error sign in cancelled');
       } else if (error.code === statusCodes.IN_PROGRESS) {
-        // operation (e.g. sign in) is in progress already
+        Alert.alert('Error sign in progress');
       } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
-        // play services not available or outdated
+        Alert.alert('Error play servies not available');
       } else {
         // some other error happened
+        Alert.alert('Error something');
       }
     }
   };
 
   return (
-    <GoogleSigninButton
-      style={{width: 192, height: 48}}
-      size={GoogleSigninButton.Size.Wide}
-      color={GoogleSigninButton.Color.Dark}
-      onPress={signIn}
-    />
+    <View style={styles.container}>
+      <GoogleSigninButton
+        style={styles.button}
+        size={GoogleSigninButton.Size.Wide}
+        color={GoogleSigninButton.Color.Dark}
+        onPress={signIn}
+      />
+    </View>
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    width,
+    height,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+
+  button: {
+    width: 192,
+    height: 48,
+  },
+});
 export default SigIn;

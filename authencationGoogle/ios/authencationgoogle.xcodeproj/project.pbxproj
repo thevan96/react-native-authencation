@@ -11,15 +11,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2B94DC9FC0D47821E1530488 /* libPods-Authencationgoogle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA779651B627C8F63CC22FF /* libPods-Authencationgoogle.a */; };
+		2B94DC9FC0D47821E1530488 /* libPods-authencationGoogle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA779651B627C8F63CC22FF /* libPods-authencationGoogle.a */; };
+		2CB71E8724E24352005AAE59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CB71E8624E24352005AAE59 /* GoogleService-Info.plist */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* AuthencationgoogleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AuthencationgoogleTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9C692C4938FC69B31C640D81 /* libPods-Authencationgoogle-AuthencationgoogleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6136A933DD4E6357B348F5FB /* libPods-Authencationgoogle-AuthencationgoogleTests.a */; };
-		C1ED2FA25E87AEC913149DBB /* libPods-Authencationgoogle-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8898A72998BE0B46A23DAF0 /* libPods-Authencationgoogle-tvOS.a */; };
-		FE955BA4A1C5EED2680B758D /* libPods-Authencationgoogle-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE62341F9FFADDD58336A9B8 /* libPods-Authencationgoogle-tvOSTests.a */; };
+		C1ED2FA25E87AEC913149DBB /* libPods-authencationGoogle-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8898A72998BE0B46A23DAF0 /* libPods-authencationGoogle-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +27,14 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Authencationgoogle;
+			remoteInfo = authencationGoogle;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Authencationgoogle-tvOS";
+			remoteInfo = "authencationGoogle-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,29 +43,24 @@
 		00E356EE1AD99517003FC87E /* AuthencationgoogleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthencationgoogleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AuthencationgoogleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthencationgoogleTests.m; sourceTree = "<group>"; };
-		05B002816BE5C188430BA974 /* Pods-Authencationgoogle-AuthencationgoogleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authencationgoogle-AuthencationgoogleTests.release.xcconfig"; path = "Target Support Files/Pods-Authencationgoogle-AuthencationgoogleTests/Pods-Authencationgoogle-AuthencationgoogleTests.release.xcconfig"; sourceTree = "<group>"; };
-		0BA779651B627C8F63CC22FF /* libPods-Authencationgoogle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Authencationgoogle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* Authencationgoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authencationgoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Authencationgoogle/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Authencationgoogle/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Authencationgoogle/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Authencationgoogle/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Authencationgoogle/main.m; sourceTree = "<group>"; };
-		2A0759F4CCD0166AFEDF1BEC /* Pods-Authencationgoogle-AuthencationgoogleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authencationgoogle-AuthencationgoogleTests.debug.xcconfig"; path = "Target Support Files/Pods-Authencationgoogle-AuthencationgoogleTests/Pods-Authencationgoogle-AuthencationgoogleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Authencationgoogle-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Authencationgoogle-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Authencationgoogle-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Authencationgoogle-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6136A933DD4E6357B348F5FB /* libPods-Authencationgoogle-AuthencationgoogleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Authencationgoogle-AuthencationgoogleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65A4FC5E141F283DF996A965 /* Pods-Authencationgoogle-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authencationgoogle-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Authencationgoogle-tvOSTests/Pods-Authencationgoogle-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Authencationgoogle/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C53AB4D835A1AA0ABCFEDF9F /* Pods-Authencationgoogle-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authencationgoogle-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Authencationgoogle-tvOSTests/Pods-Authencationgoogle-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		CD184795F6852278677C8538 /* Pods-Authencationgoogle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authencationgoogle.release.xcconfig"; path = "Target Support Files/Pods-Authencationgoogle/Pods-Authencationgoogle.release.xcconfig"; sourceTree = "<group>"; };
-		D8898A72998BE0B46A23DAF0 /* libPods-Authencationgoogle-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Authencationgoogle-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA779651B627C8F63CC22FF /* libPods-authencationGoogle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-authencationGoogle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* authencationGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = authencationGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = authencationGoogle/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = authencationGoogle/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = authencationGoogle/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = authencationGoogle/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = authencationGoogle/main.m; sourceTree = "<group>"; };
+		2CB71E8624E24352005AAE59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "authencationGoogle/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* authencationGoogle-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "authencationGoogle-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* authencationGoogle-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "authencationGoogle-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = authencationGoogle/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD184795F6852278677C8538 /* Pods-authencationGoogle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authencationGoogle.release.xcconfig"; path = "Target Support Files/Pods-authencationGoogle/Pods-authencationGoogle.release.xcconfig"; sourceTree = "<group>"; };
+		D8898A72998BE0B46A23DAF0 /* libPods-authencationGoogle-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-authencationGoogle-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F2B26109F129CECC9974F3B2 /* Pods-Authencationgoogle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authencationgoogle.debug.xcconfig"; path = "Target Support Files/Pods-Authencationgoogle/Pods-Authencationgoogle.debug.xcconfig"; sourceTree = "<group>"; };
-		F787E143F02F2A4560C7E726 /* Pods-Authencationgoogle-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authencationgoogle-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Authencationgoogle-tvOS/Pods-Authencationgoogle-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		FE62341F9FFADDD58336A9B8 /* libPods-Authencationgoogle-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Authencationgoogle-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE7895730277077DAD514D68 /* Pods-Authencationgoogle-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authencationgoogle-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Authencationgoogle-tvOS/Pods-Authencationgoogle-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B26109F129CECC9974F3B2 /* Pods-authencationGoogle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authencationGoogle.debug.xcconfig"; path = "Target Support Files/Pods-authencationGoogle/Pods-authencationGoogle.debug.xcconfig"; sourceTree = "<group>"; };
+		F787E143F02F2A4560C7E726 /* Pods-authencationGoogle-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authencationGoogle-tvOS.release.xcconfig"; path = "Target Support Files/Pods-authencationGoogle-tvOS/Pods-authencationGoogle-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FE7895730277077DAD514D68 /* Pods-authencationGoogle-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authencationGoogle-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-authencationGoogle-tvOS/Pods-authencationGoogle-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C692C4938FC69B31C640D81 /* libPods-Authencationgoogle-AuthencationgoogleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B94DC9FC0D47821E1530488 /* libPods-Authencationgoogle.a in Frameworks */,
+				2B94DC9FC0D47821E1530488 /* libPods-authencationGoogle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1ED2FA25E87AEC913149DBB /* libPods-Authencationgoogle-tvOS.a in Frameworks */,
+				C1ED2FA25E87AEC913149DBB /* libPods-authencationGoogle-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE955BA4A1C5EED2680B758D /* libPods-Authencationgoogle-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,10 +114,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Authencationgoogle */ = {
+		13B07FAE1A68108700A75B9A /* authencationGoogle */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				2CB71E8624E24352005AAE59 /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -133,7 +126,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Authencationgoogle;
+			name = authencationGoogle;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +134,8 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				0BA779651B627C8F63CC22FF /* libPods-Authencationgoogle.a */,
-				6136A933DD4E6357B348F5FB /* libPods-Authencationgoogle-AuthencationgoogleTests.a */,
-				D8898A72998BE0B46A23DAF0 /* libPods-Authencationgoogle-tvOS.a */,
-				FE62341F9FFADDD58336A9B8 /* libPods-Authencationgoogle-tvOSTests.a */,
+				0BA779651B627C8F63CC22FF /* libPods-authencationGoogle.a */,
+				D8898A72998BE0B46A23DAF0 /* libPods-authencationGoogle-tvOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,7 +150,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Authencationgoogle */,
+				13B07FAE1A68108700A75B9A /* authencationGoogle */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AuthencationgoogleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -174,10 +165,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Authencationgoogle.app */,
+				13B07F961A680F5B00A75B9A /* authencationGoogle.app */,
 				00E356EE1AD99517003FC87E /* AuthencationgoogleTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Authencationgoogle-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Authencationgoogle-tvOSTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* authencationGoogle-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* authencationGoogle-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +176,10 @@
 		EF39AACD992FBD28DFECF63D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2B26109F129CECC9974F3B2 /* Pods-Authencationgoogle.debug.xcconfig */,
-				CD184795F6852278677C8538 /* Pods-Authencationgoogle.release.xcconfig */,
-				2A0759F4CCD0166AFEDF1BEC /* Pods-Authencationgoogle-AuthencationgoogleTests.debug.xcconfig */,
-				05B002816BE5C188430BA974 /* Pods-Authencationgoogle-AuthencationgoogleTests.release.xcconfig */,
-				FE7895730277077DAD514D68 /* Pods-Authencationgoogle-tvOS.debug.xcconfig */,
-				F787E143F02F2A4560C7E726 /* Pods-Authencationgoogle-tvOS.release.xcconfig */,
-				65A4FC5E141F283DF996A965 /* Pods-Authencationgoogle-tvOSTests.debug.xcconfig */,
-				C53AB4D835A1AA0ABCFEDF9F /* Pods-Authencationgoogle-tvOSTests.release.xcconfig */,
+				F2B26109F129CECC9974F3B2 /* Pods-authencationGoogle.debug.xcconfig */,
+				CD184795F6852278677C8538 /* Pods-authencationGoogle.release.xcconfig */,
+				FE7895730277077DAD514D68 /* Pods-authencationGoogle-tvOS.debug.xcconfig */,
+				F787E143F02F2A4560C7E726 /* Pods-authencationGoogle-tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -204,11 +191,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AuthencationgoogleTests" */;
 			buildPhases = (
-				262B664E12B9323FA77AC977 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				6B4E122C251824FF00667764 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,9 +205,9 @@
 			productReference = 00E356EE1AD99517003FC87E /* AuthencationgoogleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Authencationgoogle */ = {
+		13B07F861A680F5B00A75B9A /* authencationGoogle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Authencationgoogle" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "authencationGoogle" */;
 			buildPhases = (
 				90AB9D97FE9086378FD3C120 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = Authencationgoogle;
-			productName = Authencationgoogle;
-			productReference = 13B07F961A680F5B00A75B9A /* Authencationgoogle.app */;
+			name = authencationGoogle;
+			productName = authencationGoogle;
+			productReference = 13B07F961A680F5B00A75B9A /* authencationGoogle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Authencationgoogle-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* authencationGoogle-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Authencationgoogle-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "authencationGoogle-tvOS" */;
 			buildPhases = (
 				DCCE32BFE071206736F5E8EC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,16 +242,15 @@
 			);
 			dependencies = (
 			);
-			name = "Authencationgoogle-tvOS";
-			productName = "Authencationgoogle-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Authencationgoogle-tvOS.app */;
+			name = "authencationGoogle-tvOS";
+			productName = "authencationGoogle-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* authencationGoogle-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Authencationgoogle-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* authencationGoogle-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Authencationgoogle-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "authencationGoogle-tvOSTests" */;
 			buildPhases = (
-				0F19E02FFF8CB0F4E342769E /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -276,9 +260,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Authencationgoogle-tvOSTests";
-			productName = "Authencationgoogle-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Authencationgoogle-tvOSTests.xctest */;
+			name = "authencationGoogle-tvOSTests";
+			productName = "authencationGoogle-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* authencationGoogle-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -320,10 +304,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Authencationgoogle */,
+				13B07F861A680F5B00A75B9A /* authencationGoogle */,
 				00E356ED1AD99517003FC87E /* AuthencationgoogleTests */,
-				2D02E47A1E0B4A5D006451C7 /* Authencationgoogle-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Authencationgoogle-tvOSTests */,
+				2D02E47A1E0B4A5D006451C7 /* authencationGoogle-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* authencationGoogle-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -342,6 +326,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2CB71E8724E24352005AAE59 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,50 +362,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0F19E02FFF8CB0F4E342769E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Authencationgoogle-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		262B664E12B9323FA77AC977 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Authencationgoogle-AuthencationgoogleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,26 +375,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		6B4E122C251824FF00667764 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Authencationgoogle-AuthencationgoogleTests/Pods-Authencationgoogle-AuthencationgoogleTests-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Authencationgoogle-AuthencationgoogleTests/Pods-Authencationgoogle-AuthencationgoogleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		90AB9D97FE9086378FD3C120 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -470,7 +391,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Authencationgoogle-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-authencationGoogle-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -483,7 +404,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Authencationgoogle/Pods-Authencationgoogle-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-authencationGoogle/Pods-authencationGoogle-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
@@ -494,7 +415,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Authencationgoogle/Pods-Authencationgoogle-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-authencationGoogle/Pods-authencationGoogle-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BB35414E411A3214A37B977C /* [CP-User] [RNFB] Core Configuration */ = {
@@ -522,7 +443,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Authencationgoogle-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-authencationGoogle-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -609,12 +530,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Authencationgoogle */;
+			target = 13B07F861A680F5B00A75B9A /* authencationGoogle */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Authencationgoogle-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* authencationGoogle-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -622,7 +543,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A0759F4CCD0166AFEDF1BEC /* Pods-Authencationgoogle-AuthencationgoogleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -639,13 +559,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authencationgoogle.app/Authencationgoogle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/authencationGoogle.app/authencationGoogle";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05B002816BE5C188430BA974 /* Pods-Authencationgoogle-AuthencationgoogleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -659,19 +578,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authencationgoogle.app/Authencationgoogle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/authencationGoogle.app/authencationGoogle";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2B26109F129CECC9974F3B2 /* Pods-Authencationgoogle.debug.xcconfig */;
+			baseConfigurationReference = F2B26109F129CECC9974F3B2 /* Pods-authencationGoogle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Authencationgoogle/Info.plist;
+				INFOPLIST_FILE = authencationGoogle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -679,7 +598,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thevan96.authencationgoogle;
-				PRODUCT_NAME = Authencationgoogle;
+				PRODUCT_NAME = authencationGoogle;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -688,12 +607,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD184795F6852278677C8538 /* Pods-Authencationgoogle.release.xcconfig */;
+			baseConfigurationReference = CD184795F6852278677C8538 /* Pods-authencationGoogle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Authencationgoogle/Info.plist;
+				INFOPLIST_FILE = authencationGoogle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -701,7 +620,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thevan96.authencationgoogle;
-				PRODUCT_NAME = Authencationgoogle;
+				PRODUCT_NAME = authencationGoogle;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -709,7 +628,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE7895730277077DAD514D68 /* Pods-Authencationgoogle-tvOS.debug.xcconfig */;
+			baseConfigurationReference = FE7895730277077DAD514D68 /* Pods-authencationGoogle-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -720,14 +639,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Authencationgoogle-tvOS/Info.plist";
+				INFOPLIST_FILE = "authencationGoogle-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Authencationgoogle-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.authencationGoogle-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -737,7 +656,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F787E143F02F2A4560C7E726 /* Pods-Authencationgoogle-tvOS.release.xcconfig */;
+			baseConfigurationReference = F787E143F02F2A4560C7E726 /* Pods-authencationGoogle-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -748,14 +667,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Authencationgoogle-tvOS/Info.plist";
+				INFOPLIST_FILE = "authencationGoogle-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Authencationgoogle-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.authencationGoogle-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -765,7 +684,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65A4FC5E141F283DF996A965 /* Pods-Authencationgoogle-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -775,24 +693,23 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Authencationgoogle-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "authencationGoogle-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Authencationgoogle-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.authencationGoogle-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authencationgoogle-tvOS.app/Authencationgoogle-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/authencationGoogle-tvOS.app/authencationGoogle-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C53AB4D835A1AA0ABCFEDF9F /* Pods-Authencationgoogle-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -802,17 +719,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Authencationgoogle-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "authencationGoogle-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Authencationgoogle-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.authencationGoogle-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authencationgoogle-tvOS.app/Authencationgoogle-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/authencationGoogle-tvOS.app/authencationGoogle-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -942,7 +859,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Authencationgoogle" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "authencationGoogle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -951,7 +868,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Authencationgoogle-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "authencationGoogle-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -960,7 +877,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Authencationgoogle-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "authencationGoogle-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,

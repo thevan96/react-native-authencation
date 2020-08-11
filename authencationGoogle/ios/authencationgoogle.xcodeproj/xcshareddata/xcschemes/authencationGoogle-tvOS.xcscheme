@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Authencationgoogle-tvOS.app"
-               BlueprintName = "Authencationgoogle-tvOS"
+               BuildableName = "authencationGoogle-tvOS.app"
+               BlueprintName = "authencationGoogle-tvOS"
                ReferencedContainer = "container:authencationGoogle.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Authencationgoogle-tvOSTests.xctest"
-               BlueprintName = "Authencationgoogle-tvOSTests"
+               BuildableName = "authencationGoogle-tvOSTests.xctest"
+               BlueprintName = "authencationGoogle-tvOSTests"
                ReferencedContainer = "container:authencationGoogle.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -55,8 +55,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Authencationgoogle-tvOS.app"
-            BlueprintName = "Authencationgoogle-tvOS"
+            BuildableName = "authencationGoogle-tvOS.app"
+            BlueprintName = "authencationGoogle-tvOS"
             ReferencedContainer = "container:authencationGoogle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -72,8 +72,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Authencationgoogle-tvOS.app"
-            BlueprintName = "Authencationgoogle-tvOS"
+            BuildableName = "authencationGoogle-tvOS.app"
+            BlueprintName = "authencationGoogle-tvOS"
             ReferencedContainer = "container:authencationGoogle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
